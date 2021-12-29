@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    
+    display: flex;
+    background:linear-gradient(rgb(229, 154, 248),rgb(120, 218, 248));
+    height: 100vh;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    padding: 3rem 1rem 2rem 1rem;
+    border-radius: 1rem;
+    background: linear-gradient(white,rgb(120, 218, 248));
+    background-blend-mode: overlay;
+    margin: 2rem;
+}
+.lists li {
+    text-decoration: none;
+    list-style: none;
+
+}
+.lists li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.lists {
+    display: flex;
+flex-direction: column;
+}
+.btn {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1rem;
+    box-shadow: 2px;
+    border: none;
+    color: white;
+    background-color: #8457ff;
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+}
+.btn svg {
+    margin-right: 20px;
+}
+.btn li {
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: rgb(36, 156, 255);
+    border: 2px solid rgb(229, 154, 248);
+    transition: ease-in 0.5s ;
+}
+.container {
+    padding: 3rem 1rem 2rem 1rem;
+
+}
+.content {
+    display: flex;
+    padding: 2rem;
+    margin: 10px;
+}
+.image {
+    background: url(./image/sreehari.jpg);
+    min-height: 200px;
+    min-width: 200px;
+    background-size:cover;
+    border-radius: 50%;
+    border: 2px solid rgb(210, 80, 243,0.5);
+}
+.sociallinks {
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+
+}
+.sociallinks li {
+    list-style: none;
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.text {
+    padding: 0 1rem 0 1rem;
+    font-weight: 500;
+    background-color: #fff;
+    padding: 1rem;
+    margin:1rem;
+    border-radius: 2rem;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3REM;
+}
